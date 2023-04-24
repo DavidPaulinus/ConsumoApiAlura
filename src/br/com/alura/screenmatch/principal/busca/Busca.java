@@ -18,7 +18,7 @@ public class Busca {
 			System.out.print("Nome do filme: ");
 			var nome = sc.nextLine();
 			
-			var endereco = "https://www.omdbapi.com/?t=" + nome + "&apikey=db0c4f7";
+			var endereco = "https://www.omdbapi.com/?t=" + nome + "&apikey=";
 			
 			HttpClient client = HttpClient.newHttpClient();
 			HttpRequest request = HttpRequest.newBuilder()
